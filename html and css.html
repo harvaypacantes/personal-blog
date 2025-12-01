@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Learner's Duo</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="subscribe.html">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+  
+     <main class="container" role="main">
+    <article class="card" aria-labelledby="title">
+      <header>
+        <h1 id="title">HTML &amp; CSS for First-Year BSIT Students - A Beginner-Friendly Guide</h1>
+        <p class="meta">Harvay Alfred | First-year BSIT </p>
+      </header>
+
+      <section aria-labelledby="intro">
+        <h2 id="intro">Why learn HTML and CSS?</h2>
+        <p>
+          HTML and CSS are the basic tools for creating websites. HTML gives the structure (headings, paragraphs, images, links), while CSS controls how the page looks (colors, spacing, layout). As a first-year BSIT student, mastering these two languages helps you build projects, create a portfolio, and understand how the web works.
+        </p>
+      </section>
+
+      <section aria-labelledby="html-basics">
+        <h2 id="html-basics">HTML basics - the structure</h2>
+        <p>
+          HTML uses <em>tags</em> surrounded by angle brackets. Most tags come in pairs: an opening tag and a closing tag. Here is a tiny example of a simple webpage structure:
+        </p>
+
+        <pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, BSIT!&lt;/h1&gt;
+    &lt;p&gt;This is my first web page.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+        <p>
+          Key tags to learn first: <code>&lt;h1&gt;–&lt;h6&gt;</code> (headings), <code>&lt;p&gt;</code> (paragraph), <code>&lt;a&gt;</code> (link), <code>&lt;img&gt;</code> (image), and <code>&lt;ul&gt;/&lt;ol&gt;</code> (lists).
+        </p>
+      </section>
+
+      <section aria-labelledby="css-basics">
+        <h2 id="css-basics">CSS basics — the style</h2>
+        <p>
+          CSS uses selectors to target HTML elements and apply styles. Here’s how to change text color and center a heading:
+        </p>
+
+        <pre><code>/* styles.css */
+h1 {
+  color: #2563eb;
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+</code></pre>
+
+        <p>
+          You can add CSS inside the HTML using a <code>&lt;style&gt;</code> tag, or place it in a separate file (recommended). Learn simple layout tools first: <strong>flexbox</strong> and <strong>grid</strong>.
+        </p>
+      </section>
+
+      <section aria-labelledby="example">
+        <h2 id="example">A small example — HTML + CSS together</h2>
+        <p>Copy this into a file named <code>index.html</code> and open it in your browser:</p>
+
+        <pre><code>&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;
+  &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;style&gt;
+    body{font-family:Arial, sans-serif;padding:20px}
+    .card{border:1px solid #ddd;padding:16px;border-radius:8px;max-width:600px}
+    .card h2{color:#2563eb}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="card"&gt;
+    &lt;h2&gt;My First Card&lt;/h2&gt;
+    &lt;p&gt;This page shows HTML and CSS in one file.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+        <div class="note" role="note">
+          Tip: Save the file, then double-click it to open in your browser. Try changing text and styles and refresh the page to see changes.
+        </div>
+      </section>
+
+      <section aria-labelledby="learning-path">
+        <h2 id="learning-path">A simple learning path for BSIT students</h2>
+        <ol>
+          <li>Understand HTML tags and semantic elements (&lt;nav&gt;, &lt;main&gt;, &lt;header&gt;, &lt;footer&gt;).</li>
+          <li>Learn CSS basics: selectors, box model, margin/padding, fonts, colors.</li>
+          <li>Practice layout: flexbox first, then grid.</li>
+          <li>Build small projects: a personal homepage, a nav bar, and a simple portfolio.</li>
+          <li>Share your projects-upload them to GitHub Pages.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="closing">
+        <h2 id="closing">Final thoughts</h2>
+        <p>
+          HTML and CSS are friendly and rewarding to learn. Start small, practice often, and don't be afraid to break things-debugging is how you learn. As a BSIT student, these skills will make your school projects and future job applications stand out.
+        </p>
+      </section>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>C <span id="year"></span> Learner's Duo - Built by two curious first-year IT students.</p>
+      <p class="small">Designed to be beginner-friendly. Want this template? Copy freely.</p>
+    </div>
+  </footer>
+</body>
+</html>
+</body>
+</html>
