@@ -221,6 +221,7 @@ body{
   margin-top:1rem;
 }
 .study-container{
+  gap:2rem;
   width:1000px;
   margin:auto;
   background:white;
@@ -230,11 +231,13 @@ body{
 }
 .study-container2{
   justify-content:center;
+  gap:2rem;
   margin:auto;
   padding:25px;
   border-radius:15px;
   background:white;
   text-align:center;
+  max-width: fit-content;
 }
 h1{
   color:#333;
