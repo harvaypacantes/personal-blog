@@ -7,17 +7,149 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">Learner's Duo</a>
       <nav class="main-nav" id="mainNav">
         <a href="index.html">Home</a>
         <a href="blog.html">Blog</a>
-        <a href="idividual blog post.html">Individudal Blog Post Template</a>
+        <a href="idividual blog post.html"> Blog Post Template</a>
         <a href="about.html">About</a>
         <a href="subscribe.html">Subscribe</a>
+        <a href="contacts.html">Contacts</a>
     </div>
   </header>
+  <style>
+    .post-container {
+        max-width: 850px;
+        margin: 40px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .post-title {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .post-meta {
+        color: #606060;
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .featured-image {
+      width:100%;
+      height:220px;
+      object-fit:cover;
+      border-radius:8px;
+      margin:1rem 0;
+        
+    }
+
+    h2 {
+        margin-top: 28px;
+        color:black;
+    }
+
+    .quote-box {
+        padding: 18px;
+        background: #e8f0fe;
+        border-left: 5px solid #7c3aed;
+        border-radius: 8px;
+        margin: 25px 0;
+        font-style: italic;
+    }
+    .share-btn {
+        display: inline-block;
+        padding: 12px 20px;
+        margin-top: 20px;
+        background:#7c3aed;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .share-btn:hover {
+        background:#7c3aed;
+    }
+
+
+    .newsletter {
+        margin-top: 45px;
+        padding: 20px;
+        background: #f1f1f1;
+        border-radius: 12px;
+    }
+
+    .newsletter input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+    }
+    .newsletter button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        background: #a658ee;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="post-container">
+
+    <h1 class="post-title">The Journey Behind Learners Duo</h1>
+    <p class="post-meta">By Harvay & Alfred</p>
+
+    <img src="duo image.png" class="featured-image" alt="Learners Duo Image">
+
+    <p>
+        Learners Duo began as a simple idea - two first-year IT students sharing their learning adventures.
+        From coding basics to productivity hacks, every post is written to help other beginners grow.
+    </p>
+
+    <div class="quote-box">
+        "We believe learning is easier when shared - that's why Learners Duo exists."
+    </div>
+
+    <h2>How We Started</h2>
+    <p>
+        As first-year IT students, we struggled with new concepts, deadlines, and complex lessons.
+        So, we began documenting our notes and transforming them into helpful articles.
+    </p>
+
+    <h2>What We Aim to Share</h2>
+    <p>
+        We focus on publishing study tips, coding tutorials, real student experiences, and guides that
+        make IT easier for everyone starting out.
+    </p>
+
+    <a href="#" class="share-btn">Share This Post</a>
+
+
+    <div class="newsletter">
+        <h3>Stay in the loop</h3>
+        <p>Subscribe for new posts, and project updates</p>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </div>
+
+</div>
 
 <footer class="site-footer">
     <div class="container footer-inner">

@@ -7,15 +7,17 @@
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
      <header class="site-header">
     <div class="container header-inner">
       <a class="logo" href="index.html">Learner's Duo</a>
       <nav class="main-nav" id="mainNav">
         <a href="index.html">Home</a>
         <a href="blog.html">Blog</a>
-        <a href="idividual blog post.html">Individudal Blog Post Template</a>
+        <a href="idividual blog post.html"> Blog Post Template</a>
         <a href="about.html">About</a>
         <a href="subscribe.html">Subscribe</a>
+        <a href="contacts.html">Contacts</a>
       </nav>
     </div>
   </header>
@@ -66,11 +68,37 @@
           CSS uses selectors to target HTML elements and apply styles. Here's how to change text color and center a heading:
         </p>
 
-        <pre><code></code></pre>
+        <pre class="code-block"><code>
+          h1 {
+            color: blue;      /* changes the text color*/
+            text-align:center;     /*centers the heading*/
+          }
+        </code></pre>
 
         <p>
           You can add CSS inside the HTML using a <code>&lt;style&gt;</code> tag, or place it in a separate file (recommended). Learn simple layout tools first: <strong>flexbox</strong> and <strong>grid</strong>.
         </p>
+        <p>SEPERATE CSS FILE</p>
+        <pre class="code-block"><code>
+           h1 {
+            color: blue;      
+            text-align:center;    
+          }
+          .flex-container{
+            display:flex;
+            justify:content;
+            gap:20px;
+          }
+          .grid-container{
+            display:grid;
+            gap:5px;
+          }
+        </code></pre>
+        <p>ADDING CSS INSIDE HTML</p>
+        <pre class="code-block"><code>
+          &lt;link rel="stylesheet/sample" href="sample/style.css&gt;
+          &lt;h1&gt;Learning layouts in HTML and CSS&gt;h1&gt;
+        </code></pre>
       </section>
 
       <section aria-labelledby="example">
@@ -120,6 +148,11 @@
           HTML and CSS are friendly and rewarding to learn. Start small, practice often, and don't be afraid to break things-debugging is how you learn. As a BSIT student, these skills will make your school projects and future job applications stand out.
         </p>
       </section>
+
+      <p><h2>CLICK HERE TO LEARN MORE ABOUT HTML AND CSS</h2></p>
+    <a href="https://www.w3schools.com/html/"><h2>HTML Tutorial</h2></a>
+    <a href="https://www.w3schools.com/Css/"><h2>CSS Tutorial</h2></a>
+     
       <div class="post-actions">
           <a class="btn inline" href="blog.html">Back to Blog</a>
         </div>
